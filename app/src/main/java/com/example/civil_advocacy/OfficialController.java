@@ -21,7 +21,7 @@ import com.android.volley.toolbox.Volley;
 public class OfficialController implements Runnable{
     private final String value;
     private final MainActivity mainActivity;
-    private final String API_KEY="AIzaSyCEXmtBV4dujXjAp1CVCOoCSaYR6kPeEnM";
+    private final String API_KEY="API_KEY";
     private final String url = "https://www.googleapis.com/civicinfo/v2/representatives?key="+API_KEY+"&address=";
 
     OfficialController(String value, MainActivity mainActivity) {
