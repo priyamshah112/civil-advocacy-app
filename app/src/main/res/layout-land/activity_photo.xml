@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/photo_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/office_title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/office"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/official_name_text_view"
+        app:layout_constraintStart_toStartOf="@+id/official_name_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/official_name_text_view" />
+
+    <TextView
+        android:id="@+id/official_name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/official_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/location_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/location_text_view" />
+
+    <ImageView
+        android:id="@+id/photo_image_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/official_photo"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toBottomOf="@+id/location_text_view"
+        app:srcCompat="@drawable/missing"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/democratic_logo_image_view"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="@string/logo"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/official_name_text_view"
+        app:layout_constraintVertical_bias="0.655"
+        app:srcCompat="@drawable/dem_logo" />
+
+    <ImageView
+        android:id="@+id/republican_logo_image_view"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="@string/logo"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/photo_image_view"
+        app:layout_constraintEnd_toStartOf="@+id/photo_image_view"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/official_name_text_view"
+        app:layout_constraintVertical_bias="0.674"
+        app:srcCompat="@drawable/rep_logo" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <TextView
+        android:id="@+id/location_text_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#800080"
+        android:gravity="center"
+        android:text="@string/location"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

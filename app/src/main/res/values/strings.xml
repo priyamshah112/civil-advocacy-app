@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Civil Advocacy</string>
+    <string name="about_title">Civil Advocacy</string>
+    <string name="about_error_no_browser">"No Application found that handles ACTION_VIEW (https) intents"</string>
+    <string name="ok">"Ok"</string>
+    <string name="search">Search Location</string>
+    <string name="name_party">Name (Party)</string>
+    <string name="position">Position</string>
+    <string name="zip">Enter Address:</string>
+    <string name="zipcode">Zip Code</string>
+    <string name="enter_location">example: 60616 or Chicago, IL</string>
+    <string name="location">Location</string>
+    <string name="logo">Logo</string>
+    <string name="facebook">Facebook</string>
+    <string name="office">Office</string>
+    <string name="official_name">Name</string>
+    <string name="official_photo">Official Photo</string>
+    <string name="official_address">Address:</string>
+    <string name="address_detail">Address Detail</string>
+    <string name="official_phone">Phone:</string>
+    <string name="phone_detail">Phone Detail</string>
+    <string name="official_email">Email:</string>
+    <string name="email_detail">Email Detail</string>
+    <string name="official_website">Website:</string>
+    <string name="website_url">Website URL</string>
+    <string name="party_name">Party Name</string>
+    <string name="provided">Data provided by</string>
+    <string name="attribution"><u>Google Civic Information API</u></string>
+    <string name="version">Version 1.0</string>
+    <string name="copyright">© 2023, PRIYAM SHAH</string>
+    <string name="about">About</string>
+    <string name="twitter">Twitter</string>
+    <string name="youtube">Youtube</string>
+    <string name="divider">divider</string>
+    <string name="no_location_found"><b>No Data For Location</b></string>
+    <string name="no_internet"><p><b>No Network Connection \n\n</b>Data cannot be accessed/loaded without an internet connection.</p></string>
+</resources>
